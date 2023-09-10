@@ -1,0 +1,46 @@
+.form-container{
+    display: flex ;
+    justify-content: center;
+}
+.tb_chk {
+    border: 1px solid rgba(49, 118, 192, 0.637);
+    border-radius: 10px;
+    margin-top: 2%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(49, 118, 192, 0.637);
+    
+  }
+  
+  .title-header {
+    text-align: center;
+  
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #110f0f;
+    border-radius: 5px;
+  }
+  .text-info {
+    padding-left: 5%;
+  }
+  
+  
+  .form-container .btn-submit {
+    float: right;
+  }
+  
+  
+  .btn-submit {
+    padding: 10px 30px;
+    border: 1px solid #5283bad1;
+    border-radius: 5px;
+    background-color: #5283bad1;
+    font-weight: bold;
+  }

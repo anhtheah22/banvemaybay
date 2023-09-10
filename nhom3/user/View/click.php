@@ -1,0 +1,1 @@
+<button class="click">Bắt đầu ngay</button>

@@ -1,0 +1,27 @@
+.search_text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 12px;
+
+}
+
+.search_submit {
+  color: white;
+  background-color: rgb(60, 60, 250);
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 9px 12px;
+  border: rgb(60, 60, 250);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.search_submit:hover{
+  opacity: 0.7;
+}
+
+.search_submit:active{
+  opacity: 0.3;
+ }

@@ -1,0 +1,195 @@
+
+.navbar {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: left;   
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.header a {
+    text-decoration: none;
+    color: black;  
+}
+
+.header h3 {
+    margin: auto auto auto 0;
+}
+.container_nav {
+    display: flex;
+    column-gap: 20px;
+    grid-column-start: 5;
+    grid-column-end:9;
+    margin: auto;
+}
+.container_nav a {
+    text-decoration: none;
+    color:black;
+    
+}
+.content{
+  width:100%;
+}
+.content-right{
+  height:100%;
+}
+.button-login1 {
+    background-color: black;
+    color: white; 
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: opacity 0.15s;
+    border: none;
+    font-family: Arial;
+  }
+  .button-login {
+    margin: auto;
+    grid-column-start: 11;
+    grid-column-end:12;
+  }
+  .button-login:hover {
+    opacity: 0.8;
+  }
+  
+  .button-login:active {
+    opacity: 0.5
+  }
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+.content-left {
+  width:40%;
+    margin-left: 3%;
+    /* grid-column-start: 1;
+    grid-column-end:5; */
+}
+  /* Mùa hè này hãy khám phá những địa điểm du lịch cùng chúng tôi! */
+.the1_1
+{
+width: 530px;
+height: 288px;
+font-family: 'Lucida';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 72px;
+letter-spacing: -0.04em;
+color: black;
+}
+
+/* Hãy bắt đầu hành trình mới và bay cùng Boomkeo Airline, nơi chúng tôi mang đến cho bạn một trải nghiệm bay đáng nhớ và dịch vụ tuyệt vời. */
+.the2_1 {
+padding-top: 20px;   
+width: 419px;
+height: 104px;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: black;
+}
+
+.btn {
+    display:flex;
+    justify-content:left;
+   margin-top: 20px;
+    
+}
+.search_text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 12px;
+
+}
+
+.search_submit {
+  color: white;
+  background-color: rgb(60, 60, 250);
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 9px 12px;
+  border: rgb(60, 60, 250);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.search_submit:hover{
+  opacity: 0.7;
+}
+
+.search_submit:active{
+  opacity: 0.3;
+ } 
+ .dangnhap {
+  width: 600px;
+  margin: 10px auto;
+  }
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+    
+  .button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+    
+  .button:hover {
+  opacity: 0.8;
+  }
+
+/* .search {
+    padding: 10px 20px 10px 5px ;
+    border: 1px solid #797897;
+} */
+/* .khungnhapvao
+{
+   display: flex;
+}
+.banmuontimgi
+{
+   margin-top: 10px;
+   padding: 10px 40px 10px 5px ;
+   border-radius: 10px;
+   font-family: 'Times New Roman';
+   
+   width: 100px;
+} */
+
+/* .btn .click 
+{
+float:right;
+background-color:cornflowerblue;
+color: white;
+width: 100px;
+font-family: 'Times New Roman';
+font-size: 15px;
+margin-left: 20px;
+height: 40px;
+margin-top: 20px;
+}  */
